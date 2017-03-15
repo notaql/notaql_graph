@@ -89,7 +89,7 @@ OUT.num_friends_and_friends_of_friends <- count(IN._e?('friend')_[1,2]._id)
 ```
 OUT._e_?(TARGET) <- EDGE(DIRECTION, LABEL, PROPERTIES)
 ```
-* TARGET = predicate; dn edge is created to every vertex in the graph fulfilling this predicate.
+* TARGET = predicate; an edge is created to every vertex in the graph fulfilling this predicate.
 * DIRECTION: _outgoing or _incoming
 * LABEL: _l <- 'theLabel'
 * PROPERTIES: (property <- value (, property <- value)*)? 
